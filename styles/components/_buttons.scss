@@ -1,0 +1,38 @@
+/* ================================================
+BUTTONS
+================================================ */
+
+@use '../abstracts/' as a;
+
+a {
+    text-decoration: none;
+}
+
+.cta-button-1, .cta-button-2 {
+    border: 1px solid white;
+    border-radius: 50px;
+    color: a.$header-text-color;
+    display: block;
+    font-family: a.$heading-font;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .9rem 1rem;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.cta-button-1 {
+    background-color: a.$header-text-color;
+    color: a.$button-text-color;
+}
+
+.cta-button-1:hover {
+    background-color: a.$button-hover-bg;
+    border: 1px solid a.$button-hover-bg;
+    color: a.$header-text-color;
+}
+
+.cta-button-2:hover {
+    background-color: a.$header-text-color;
+    color: a.$button-hover-bg;
+}

@@ -1,0 +1,145 @@
+/* ================================================
+TYPOGRAPHY
+================================================ */
+
+@use "../abstracts/" as a;
+
+body {
+  font-family: a.$body-font;
+}
+
+// Header Intro Box
+.header-intro-box {
+  color: a.$header-text-color;
+  padding: 1.5rem;
+}
+
+.intro-text-box h1 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.intro-text-box p {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+// Content Boxes
+
+.title h1 {
+  color: a.$heading-text-color;
+  font-size: 1.65rem;
+  padding: 1.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.content-box .text-box h1 {
+  color: a.$heading-text-color;
+  font-size: 1.85rem;
+  line-height: 2rem;
+  padding: 1.35rem 1.35rem 0;
+  text-align: center;
+}
+
+.content-box .text-box p {
+  font-size: 1.05rem;
+  line-height: 1.85rem;
+  padding: 1.25rem 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .title h1 {
+    font-size: 2.35rem;
+    padding: 10rem 0 5rem;
+  }
+
+  .content-box .text-box h1 {
+    padding: 1.85rem 0;
+    text-align: left;
+  }
+
+  .content-box .text-box p {
+    text-align: left;
+    padding: 0 0 2rem;
+  }
+}
+
+// State Box
+.state-box .text-box h1 {
+  color: a.$header-text-color;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.state-box .text-box p {
+  color: a.$header-text-color;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.8rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .state-box .text-box h1 {
+    font-size: 2.325rem;
+    text-align: left;
+  }
+  
+  .state-box .text-box p {
+    font-size: .95rem;
+    padding: 1rem 0 0;
+    text-align: left;
+  }
+}
+
+// Footer
+footer {
+  color: a.$header-text-color;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  color: a.$footer-text-color;
+  display: block;
+  font-size: 1.1rem;
+  padding: 0.35rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+  footer {
+    padding: 5rem 10rem;
+    text-align: left;
+  }
+
+  footer h4 {
+    font-size: .95rem;
+  }
+
+  footer a {
+    font-size: .95rem;
+    padding: 0.5rem 0;
+  }
+}
+
+// Attribution Text
+.attribution {
+  color: #aaa;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
