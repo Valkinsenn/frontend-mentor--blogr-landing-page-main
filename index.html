@@ -12,6 +12,100 @@
 </head>
 <body>
   <header>
+    <nav class="navbar">
+      <nav class="nav-box">
+
+        <!-- Logo Box -->
+        <nav class="logo-box">
+          <a href="#" class="home-link">
+            <img src="./images/logo.svg" alt="Blogr logo">
+          </a>
+        </nav>
+
+        <!-- Navbox Toggler -->
+        <label for="menu-btn-checkbox" class="menu-btn">
+          <span class="menu-btn-burger"></span>
+        </label>
+        <input 
+          class="menu-btn-checkbox"
+          id="menu-btn-checkbox" 
+          name="menu-btn-toggler" 
+          type="checkbox" 
+        >
+
+        <!-- Links Box -->
+        <nav class="linx-box">
+          <nav class="linx-padding-box">
+            <nav class="nav-links-box">
+              <input type="checkbox" name="nav-links" id="product" class="link-radio">
+              <label for="product" class="link-label">
+                <nav class="label-box">
+                  Product
+                  <picture>
+                    <source media="(max-width: 576px)" srcset="./images/icon-arrow-dark.svg">
+                    <source media="(min-width: 576px)" srcset="./images/icon-arrow-light.svg">
+                    <img src="./images/icon-arrow-light.svg" alt="Arrow" class="link-arrow">
+                  </picture>
+                </nav>
+                <nav class="nav-linx-menu">
+                  <nav class="linx-menu-padding">
+                    <a href="#" class="nav-menu-link">Overview</a>
+                    <a href="#" class="nav-menu-link">Pricing</a>
+                    <a href="#" class="nav-menu-link">Marketplace</a>
+                    <a href="#" class="nav-menu-link">Features</a>
+                    <a href="#" class="nav-menu-link">Integrations</a>
+                  </nav>
+                </nav>
+              </label>
+            
+              <input type="checkbox" name="nav-links" id="company" class="link-radio">
+              <label for="company" class="link-label">
+                <nav class="label-box">
+                  Company
+                  <picture>
+                    <source media="(max-width: 576px)" srcset="./images/icon-arrow-dark.svg">
+                    <source media="(min-width: 576px)" srcset="./images/icon-arrow-light.svg">
+                    <img src="./images/icon-arrow-light.svg" alt="Arrow" class="link-arrow">
+                  </picture>
+                </nav>
+                <nav class="nav-linx-menu">
+                  <nav class="linx-menu-padding">
+                    <a href="#" class="nav-menu-link">About</a>
+                    <a href="#" class="nav-menu-link">Team</a>
+                    <a href="#" class="nav-menu-link">Blog</a>
+                  </nav>
+                </nav>
+              </label>
+            
+              <input type="checkbox" name="nav-links" id="connect" class="link-radio">
+              <label for="connect" class="link-label">
+                <nav class="label-box">
+                  Connect
+                  <picture>
+                    <source media="(max-width: 576px)" srcset="./images/icon-arrow-dark.svg">
+                    <source media="(min-width: 576px)" srcset="./images/icon-arrow-light.svg">
+                    <img src="./images/icon-arrow-light.svg" alt="Arrow" class="link-arrow">
+                  </picture>
+                </nav>
+                <nav class="nav-linx-menu">
+                  <nav class="linx-menu-padding">
+                    <a href="#" class="nav-menu-link">Contact</a>
+                    <a href="#" class="nav-menu-link">Newsletter</a>
+                    <a href="#" class="nav-menu-link">Connect</a>
+                  </nav>
+                </nav>
+              </label>
+            </nav>
+            <div class="login-box">
+              <a href="#" class="login-btn">Login</a>
+              <a href="#" class="sign-up-btn">Sign Up</a>
+            </div>
+          </nav>
+        </nav>
+
+      </nav>
+    </nav>
+
     <div class="header-intro-box">
       <div class="intro-text-box">
         <h1>A modern publishing platform</h1>
@@ -118,16 +212,8 @@
   </footer>
   
   <div class="hidden">
-    Product
-    Overview
-    Pricing
-    Marketplace
-    Features
-    Integrations
     Company
-    About
-    Team
-    Blog
+
     Careers
     Connect
     Contact
@@ -136,9 +222,6 @@
     
     Login
     Sign Up
-    A modern publishing platform
-    Start for Free
-    Learn More
     
     
     
@@ -146,7 +229,8 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    <div>Coded by <a href="#">Your Name Here</a>.</div>
+    <div>Coded by <a href="#">Valkinsenn</a>.</div>
   </div>
+  <script src="./js/index.js"></script>
 </body>
 </html>

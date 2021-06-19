@@ -27,7 +27,7 @@ header {
   background-size: 350%;
   border-radius: 0 0 0 125px;
   height: 90.5vh;
-  overflow: hidden;
+  position: relative;
   width: 100vw;
 }
 
@@ -273,7 +273,7 @@ footer {
 .footer-inner-box {
   display: grid;
   margin: auto;
-  max-width: 1125px;
+  max-width: 1150px;
   row-gap: 2rem;
 }
 
@@ -301,6 +301,7 @@ footer {
 .attribution {
   background-color: #222;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .attribution div {
