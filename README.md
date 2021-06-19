@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here's my solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-built-with-css-flexbox-grid-and-javascript-SkLBAT9uf).
+- Live Site URL: [Here's the final product in action](https://valkinsenn.github.io/frontend-mentor--blogr-landing-page-main/).
 
 ## My process
 

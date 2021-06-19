@@ -20,9 +20,20 @@ body {
 }
 
 .intro-text-box p {
+  color: #ddd;
   font-size: 1.25rem;
   padding-top: 1rem;
   text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .intro-text-box h1 {
+    font-size: 3.67rem;
+  }
+
+  .intro-text-box p {
+    font-size: 1.23rem;
+  }
 }
 
 // Content Boxes
