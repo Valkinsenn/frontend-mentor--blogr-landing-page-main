@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;900&family=Ubuntu:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;900&family=Ubuntu:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500;600;700;900&family=Ubuntu:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500;600;700;900&family=Ubuntu:wght@400;500;700;900&display=swap");
 /* ================================================
 BUTTONS
 ================================================ */
@@ -293,6 +293,7 @@ footer {
   }
 
   .footer-inner-box {
+    column-gap: 1.3rem;
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -359,6 +360,7 @@ NAVIGATION
   height: 76.5vh;
   left: 50%;
   max-height: 0;
+  opacity: 0;
   overflow: hidden;
   padding: 0;
   pointer-events: none;
@@ -624,6 +626,7 @@ NAVIGATION
 
 .menu-btn-checkbox:checked ~ .linx-box {
   max-height: 100vh;
+  opacity: 1;
   pointer-events: auto;
 }
 
@@ -718,12 +721,14 @@ body {
 
 .intro-text-box h1 {
   font-size: 2.25rem;
+  font-weight: 500;
   text-align: center;
 }
 
 .intro-text-box p {
-  color: #ddd;
-  font-size: 1.25rem;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 300;
   padding-top: 1rem;
   text-align: center;
 }
@@ -746,9 +751,10 @@ body {
 
 .content-box .text-box h1 {
   color: #1f3f5b;
-  font-size: 1.85rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   line-height: 2rem;
-  padding: 1.35rem 1.35rem 0;
+  padding: 1.35rem 2rem 0;
   text-align: center;
 }
 
@@ -762,12 +768,13 @@ body {
 
 @media screen and (min-width: 576px) {
   .title h1 {
-    font-size: 2.35rem;
+    font-size: 2.27rem;
     padding: 10rem 0 5rem;
   }
 
   .content-box .text-box h1 {
-    padding: 1.85rem 0;
+    font-size: 1.75rem;
+    padding: 1.65rem 0;
     text-align: left;
   }
 
@@ -779,6 +786,7 @@ body {
 .state-box .text-box h1 {
   color: white;
   font-size: 2.5rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -794,11 +802,13 @@ body {
 @media screen and (min-width: 576px) {
   .state-box .text-box h1 {
     font-size: 2.325rem;
+    font-weight: 600;
     text-align: left;
   }
 
   .state-box .text-box p {
     font-size: 0.95rem;
+    font-weight: 300;
     padding: 1rem 0 0;
     text-align: left;
   }
@@ -833,6 +843,7 @@ footer a:hover {
 
   footer h4 {
     font-size: 0.95rem;
+    font-weight: 400;
   }
 
   footer a {

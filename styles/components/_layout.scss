@@ -285,6 +285,7 @@ footer {
   }
 
   .footer-inner-box {
+    column-gap: 1.3rem;
     grid-template-columns: repeat(4, 1fr);
   }
 
