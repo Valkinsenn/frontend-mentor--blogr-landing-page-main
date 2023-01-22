@@ -681,6 +681,14 @@ NAVIGATION
 /* =====================================
 SCROLLBARS
 ===================================== */
+body {
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
 @media screen and (min-width: 576px) {
   body {
     color: transparent;
