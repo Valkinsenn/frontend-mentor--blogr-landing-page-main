@@ -46,6 +46,10 @@ LAYOUT
   margin: 0;
 }
 
+body {
+  background: white;
+}
+
 header {
   background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(165deg, #ff8f70, #ff3d54);
   background-position: 35% 32.5%;

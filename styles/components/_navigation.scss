@@ -49,7 +49,7 @@ NAVIGATION
   height: 76.5vh;
   left: 50%;
   max-height: 0;
-    opacity: 0;
+  opacity: 0;
   overflow: hidden;
   padding: 0;
   pointer-events: none;
@@ -234,7 +234,7 @@ NAVIGATION
     position: absolute;
     width: auto;
     top: 35px;
-    transition: max-height 0.4s ease-in-out, opacity .4s ease-in-out;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
   }
 
   .linx-menu-padding {
@@ -296,7 +296,7 @@ NAVIGATION
   }
 
   .login-btn:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 
   .sign-up-btn {
@@ -337,7 +337,7 @@ NAVIGATION
 
 .menu-btn-checkbox:checked ~ .linx-box {
   max-height: 100vh;
-    opacity: 1;
+  opacity: 1;
   pointer-events: auto;
 }
 
